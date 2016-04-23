@@ -1,0 +1,25 @@
+{
+  "name": "hain-plugin-recette",
+  "version": "0.0.1",
+  "description": "Hain plugin to search recette",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchoisy/hain-plugin-recette.git"
+  },
+  "author": "Tommy CHOISY",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "homepage": "https://github.com/tchoisy/hain-plugin-recette.git",
+  "hain": {
+    "prefix": "/recette",
+    "usage": "/recette search",
+    "icon": "/icon.png",
+    "redirect": "/recette "
+  },
+  "dependencies": {
+    "got": "^6.2.0"
+  }
+}
